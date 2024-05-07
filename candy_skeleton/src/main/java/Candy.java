@@ -44,11 +44,11 @@ public class Candy {
         long result = 0; // value to be returned
         //# BEGIN TODO: Provide method implementation 
         long upperbound = 1000000000000000000L; //
-        if (k <= 0 || c < 0 || upperbound <= k || upperbound <= c) {
-            return -1;
-        }       
+        if (k == 0 || c == 0) {
+            return 0;
+        }      
         result = c / k;                     
-        if (result * k != c) {
+        if (result * k != c || result >= upperbound || result < 0) {
             return -1;
         }      
         //# END TODO

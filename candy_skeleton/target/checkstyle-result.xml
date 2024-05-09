@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="10.12.4">
-<file name="C:\Users\20231035\Downloads\candy_skeleton\src\test\java\CandyTest.java">
-<error line="41" column="1" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 42." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-<error line="96" column="1" severity="warning" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 92." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
-</file>
-</checkstyle>
